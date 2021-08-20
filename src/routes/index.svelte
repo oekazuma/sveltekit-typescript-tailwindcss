@@ -1,7 +1,7 @@
 <div class="flex flex-col min-h-screen bg-gray-100 py-6 justify-center sm:py-12">
   <div class="py-4 relative sm:max-w-xl sm:mx-auto">
     <div
-      class="bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg transform inset-0 -skew-y-6 absolute sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"
+      class="bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg transform inset-0 -skew-y-6 absolute sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"
     />
     <div class="bg-white shadow-lg py-10 px-4 relative sm:rounded-3xl sm:p-20">
       <div class="mx-auto max-w-md">
