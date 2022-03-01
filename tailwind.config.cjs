@@ -1,15 +1,9 @@
-const colors = require('tailwindcss/colors');
-
-module.exports = {
-  mode: 'jit',
-  purge: ['./src/**/*.{html,js,svelte,ts}'],
-  darkMode: 'class',
-  theme: {
-    extend: {
-      colors: {
-        sky: colors.sky,
-        cyan: colors.cyan
-      }
-    }
-  }
+const config = {
+	content: ['./src/**/*.{html,js,svelte,ts}'],
+	theme: {
+		extend: {}
+	},
+	plugins: []
 };
+
+module.exports = config;
