@@ -1,12 +1,12 @@
-<div class="flex flex-col min-h-screen bg-gray-100 py-6 justify-center sm:py-12">
-	<div class="py-4 relative sm:max-w-xl sm:mx-auto">
+<div class="flex min-h-screen flex-col justify-center bg-gray-100 py-6 sm:py-12">
+	<div class="relative py-4 sm:mx-auto sm:max-w-xl">
 		<div
-			class="bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg transform inset-0 -skew-y-6 absolute sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"
+			class="absolute inset-0 -skew-y-6 transform bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg sm:-rotate-6 sm:skew-y-0 sm:rounded-3xl"
 		/>
-		<div class="bg-white shadow-lg py-10 px-4 relative sm:rounded-3xl sm:p-20">
+		<div class="relative bg-white py-10 px-4 shadow-lg sm:rounded-3xl sm:p-20">
 			<div class="mx-auto max-w-md">
 				<div class="divide-y divide-gray-200">
-					<div class="space-y-4 text-base py-8 text-gray-700 leading-6 sm:text-lg sm:leading-7">
+					<div class="space-y-4 py-8 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7">
 						<h1>Welcome to SvelteKit</h1>
 						<p>
 							An advanced online playground for Tailwind CSS, including support for things like:
@@ -15,7 +15,7 @@
 							<li class="flex items-start">
 								<span class="flex h-6 items-center sm:h-7">
 									<svg
-										class="flex-shrink-0 h-5 text-cyan-500 w-5"
+										class="h-5 w-5 flex-shrink-0 text-cyan-500"
 										viewBox="0 0 20 20"
 										fill="currentColor"
 									>
@@ -28,13 +28,13 @@
 								</span>
 								<p class="ml-2">
 									Customizing your
-									<code class="font-bold text-sm text-gray-900">tailwind.config.js</code> file
+									<code class="text-sm font-bold text-gray-900">tailwind.config.js</code> file
 								</p>
 							</li>
 							<li class="flex items-start">
 								<span class="flex h-6 items-center sm:h-7">
 									<svg
-										class="flex-shrink-0 h-5 text-cyan-500 w-5"
+										class="h-5 w-5 flex-shrink-0 text-cyan-500"
 										viewBox="0 0 20 20"
 										fill="currentColor"
 									>
@@ -47,13 +47,13 @@
 								</span>
 								<p class="ml-2">
 									Extracting classes with
-									<code class="font-bold text-sm text-gray-900">@apply</code>
+									<code class="text-sm font-bold text-gray-900">@apply</code>
 								</p>
 							</li>
 							<li class="flex items-start">
 								<span class="flex h-6 items-center sm:h-7">
 									<svg
-										class="flex-shrink-0 h-5 text-cyan-500 w-5"
+										class="h-5 w-5 flex-shrink-0 text-cyan-500"
 										viewBox="0 0 20 20"
 										fill="currentColor"
 									>
@@ -72,7 +72,7 @@
 							demo to share online.
 						</p>
 					</div>
-					<div class="font-bold text-base pt-6 leading-6 sm:text-lg sm:leading-7">
+					<div class="pt-6 text-base font-bold leading-6 sm:text-lg sm:leading-7">
 						<p>Want to dig deeper into Tailwind?</p>
 						<p>
 							<a href="https://tailwindcss.com/docs" class="text-cyan-600 hover:text-cyan-700">
